@@ -4,11 +4,11 @@ https://youtu.be/UdtpOzPj8m8
 
 **Artifacts:**
 
--[VectorSorting.cpp](https://github.com/ethanmotaco/CS-Capstone/tree/gh-pages/App%20Database) 	
+-[VectorSorting.cpp](https://github.com/ethanmotaco/CS-Capstone/blob/gh-pages/VectorSorting.cpp) 	
 
 -[Pyramid.cpp](https://github.com/ethanmotaco/CS-Capstone/blob/gh-pages/Pyramid.cpp)	
 
--[App Database](https://github.com/ethanmotaco/CS-Capstone/blob/gh-pages/VectorSorting.cpp) 	
+-[App Database](https://github.com/ethanmotaco/CS-Capstone/tree/gh-pages/App%20Database) 	
 
 
 **Algorithms and Data Structures Narrative:**
