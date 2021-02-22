@@ -21,4 +21,13 @@ public interface InventoryDao {
     @Query("SELECT * FROM inventory")
     public InventoryEntity[] loadAllInventory();
 
+    @Query("SELECT * FROM inventory WHERE itemColor = :color")
+    public InventoryEntity[] loadByColor(String color);
+
+    @Query("SELECT * FROM inventory WHERE itemMass <= :mass")
+    public InventoryEntity[] loadByMaxMass(double mass);
+
+    @Query("SELECT * FROM inventory WHERE itemVolume <= :vol")
+    public InventoryEntity[] loadByMaxVol(double vol);
+
 }

@@ -17,6 +17,36 @@ public class InventoryEntity {
     @NonNull
     public int itemCount;
 
+    public String getItemColor() {
+        return itemColor;
+    }
+
+    public void setItemColor(String itemColor) {
+        this.itemColor = itemColor;
+    }
+
+    public double getItemMass() {
+        return itemMass;
+    }
+
+    public void setItemMass(double itemMass) {
+        this.itemMass = itemMass;
+    }
+
+    public double getItemVolume() {
+        return itemVolume;
+    }
+
+    public void setItemVolume(double itemVolume) {
+        this.itemVolume = itemVolume;
+    }
+
+    public String itemColor;
+
+    public double itemMass;
+
+    public double itemVolume;
+
     //Setters for inventory items
     public void setItemName(@NonNull String itemName) {
         this.itemName = itemName;

@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase;
 
 //remember to change version when schema is changed
 @Database(entities = {UserEntity.class, InventoryEntity.class},
-        version = 2)
+        version = 3)
 public abstract class AppRoomDatabase extends RoomDatabase {
 
     //declare variables
